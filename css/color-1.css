@@ -1,0 +1,111 @@
+
+.art-link.art-color-link {
+  color: hsl(45, 100%, 72%)
+}
+
+.art-link.art-color-link:hover {
+  color: hsl(45, 100%, 72%);
+}
+.art-btn {
+  background: hsl(45, 100%, 72%);
+}
+
+blockquote {
+  background: hsl(45, 100%, 72%);
+}
+
+.art-custom-list li:before {
+  border: solid 2px hsl(45, 100%, 72%);
+}
+
+.art-info-bar .art-header .art-avatar .art-lamp-light .art-available-lamp {
+  background: hsl(45, 100%, 72%);
+}
+
+.art-info-bar .art-name:hover a {
+  color: hsl(45, 100%, 72%)
+}
+
+.art-info-bar .art-knowledge-list li:before {
+  color: hsl(45, 100%, 72%);
+}
+
+.art-menu-bar .art-language-change li.art-active-lang {
+  background-color: hsl(45, 100%, 72%);
+}
+
+.art-code i {
+  color: hsl(45, 100%, 72%)
+}
+
+.art-counter-frame .art-counter-box .art-counter {
+  color: hsl(45, 100%, 72%);
+}
+
+.art-counter-frame .art-counter-box .art-counter-plus {
+  color: hsl(45, 100%, 72%);
+}
+
+.art-price.art-popular-price:before {
+  background: hsl(45, 100%, 72%)
+}
+
+.art-price .art-price-body .art-price-cost .art-number {
+  color: hsl(45, 100%, 72%);
+}
+
+.art-price .art-price-body .art-price-list li:before {
+  color: hsl(45, 100%, 72%)
+}
+
+.art-price .art-price-body .art-price-list li.art-empty-item:before {
+  color: hsl(45, 100%, 72%)
+}
+
+.art-testimonial .art-testimonial-footer .art-star-rate {
+  color: hsl(45, 100%, 72%)
+}
+
+.art-slider-navigation .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: hsl(45, 100%, 72%);
+}
+
+.fancybox-progress {
+  background: hsl(45, 100%, 72%);
+}
+
+.fancybox-thumbs__list a:before {
+  border-color: hsl(45, 100%, 72%);
+}
+
+.art-timeline .art-timeline-item .art-timeline-mark {
+  border: solid 3px hsl(45, 100%, 72%);
+}
+
+.art-form-field textarea.art-active {
+  border-color: hsl(45, 100%, 72%)
+}
+
+.art-form-field textarea:focus {
+  border-color: hsl(45, 100%, 72%)
+}
+
+.art-contact-form .art-input.art-active+label, .art-contact-form .art-input:focus+label {
+  background: hsl(45, 100%, 72%);
+}
+
+.art-pagination .art-pagination-center a.art-active-pag {
+  color: hsl(45, 100%, 72%)
+}
+
+.art-preloader-load path:last-child {
+  stroke: hsl(45, 100%, 72%);
+}
+
+.art-line-progress path:last-child {
+  stroke: hsl(45, 100%, 72%);
+}
+
+.art-cirkle-progress path:last-child {
+  stroke: hsl(45, 100%, 72%);
+}
