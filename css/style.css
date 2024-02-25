@@ -965,7 +965,7 @@ info bar
   right: 5px;
   height: 15px;
   width: 15px;
-  background: hsl(45, 100%, 72%);
+  background: hsl(123, 88%, 40%);
   border-radius: 50%;
   z-index: 0;
   -webkit-transition: 0.4s ease-in-out;
@@ -1506,6 +1506,8 @@ content
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   z-index: 999;
+  /* border: 1px solid red; */
+  /* margin-top: -60px; */
 }
 .art-banner .art-banner-overlay {
   position: relative;
