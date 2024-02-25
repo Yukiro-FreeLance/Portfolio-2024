@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Luche Wendel</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
   </head>
 
   <body>
@@ -1551,42 +1553,42 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-12">
-                      <div class="art-section-title">
-                        <div class="art-title-frame">
-                          <h4>Get in touch</h4>
+                      <div class="col-lg-12">
+                        <div class="art-section-title">
+                          <div class="art-title-frame">
+                            <h4>Get in touch</h4>
+                          </div>
                         </div>
+                  
+                        <div class="art-a art-card">
+                          <form id="form" class="art-contact-form" method="POST">
+                            <div class="art-form-field">
+                              <input id="fname" name="fname" class="art-input" type="text" placeholder="JUAN DELA CRUZ" required />
+                              <label for="fname"><i class="fas fa-user"></i></label>
+                            </div>
+                  
+                            <div class="art-form-field">
+                              <input id="email" name="email" class="art-input" type="email" placeholder="example@sample" required />
+                              <label for="email"><i class="fas fa-at"></i></label>
+                            </div>
+                  
+                            <div class="art-form-field">
+                              <textarea id="message" name="message_content" class="art-input" placeholder="Your message here" required></textarea>
+                              <label for="message"><i class="far fa-envelope"></i></label>
+                            </div>
+                  
+                            <div class="art-submit-frame">
+                              <button class="art-btn art-btn-md art-submit" type="submit">
+                                <span>Send message</span>
+                              </button>
+                  
+                              <div class="art-success">Success <i class="fas fa-check"></i></div>
+                            </div>
+                          </form>
+                        </div>
+                        
+                  
                       </div>
-                
-                      <div class="art-a art-card">
-                        <form id="form" class="art-contact-form" method="POST">
-                          <div class="art-form-field">
-                            <input id="name" name="name" class="art-input" type="text" placeholder="Name" required />
-                            <label for="name"><i class="fas fa-user"></i></label>
-                          </div>
-                
-                          <div class="art-form-field">
-                            <input id="email" name="email" class="art-input" type="email" placeholder="Email" required />
-                            <label for="email"><i class="fas fa-at"></i></label>
-                          </div>
-                
-                          <div class="art-form-field">
-                            <textarea id="message" name="message_content" class="art-input" placeholder="Message" required></textarea>
-                            <label for="message"><i class="far fa-envelope"></i></label>
-                          </div>
-                
-                          <div class="art-submit-frame">
-                            <button class="art-btn art-btn-md art-submit" type="submit">
-                              <span>Send message</span>
-                            </button>
-                
-                            <div class="art-success">Success <i class="fas fa-check"></i></div>
-                          </div>
-                        </form>
-                      </div>
-                      
-                
-                    </div>
                   </div>
                 
                   
@@ -1681,5 +1683,6 @@
     <script src="js/plugins/swup.min.js"></script>
 
     <script src="js/main.js"></script>
+    <script src="js/sendEmail.js"></script>
   </body>
 </html>
