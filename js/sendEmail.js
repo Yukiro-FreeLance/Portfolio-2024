@@ -18,13 +18,23 @@ function sendEmail() {
         Subject: "From Portfolio",
         Body: bodyMsg
     }).then(
+        
         message => {
             if (message === "OK") {
                 Swal.fire({
                     title: "Successful",
                     text: "Your message has been sent",
-                    icon: "success"
-                });
+                    icon: "success",
+                    padding: "3em",
+                    color: "#100e22",
+                    background: "#fff",
+                    backdrop: `
+                      rgba(255, 255, 255, 0.4)
+                      url("https://media.tenor.com/Mn6BfF6_o2oAAAAi/cape-flying.gif")
+                      right top
+                      no-repeat
+                    `
+                  });
             }
         }
     );
