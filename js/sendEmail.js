@@ -11,11 +11,11 @@ function sendEmail() {
                 <br>Message  : ${message.value}`;
     Email.send({
         Host: "smtp.elasticemail.com",
-        Username: "wendelluche23@gmail.com",
-        Password: "8F29B5AB6CF7E626761F6FE2984FDFE2A6EF",
-        To: 'wendelluche23@gmail.com',
-        From: 'wendelluche23@gmail.com',
-        Subject: "From Portfolio",
+        Username: "wendelluche20@gmail.com",
+        Password: "mjye uqvt ugyh qwji",
+        To: '',
+        From: '',
+        Subject: "",
         Body: bodyMsg
     }).then(
         
